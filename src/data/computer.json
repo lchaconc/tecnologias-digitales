@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Máquina analítica de Babbage 1837",        
+        "caption": "Diseñada por el matemático Charles Babbage, podría resolver logartimos matemáticos básicos.",
+        "fileImg": "analitica-babage.avif"        
+    },
+    {
+        "id": 2,
+        "title": "Colossus 1944",
+        "caption": "Desarrollada en el Reino Unido para descifrar códigos secretos del enemigo en la segunda guerra mundial",
+        "fileImg": "colosuus.gif"        
+    },
+    {
+        "id": 3,
+        "title": "ENIAC 1945",
+        "caption": "Construida en la universidad de Pensailvania, Estados Unidos. De propósito general",
+        "fileImg": "eniac.jpg"        
+    },
+    {
+        "id": 4,
+        "title": "Apple I 1976",
+        "caption": "Primera computadora construida por Apple. Hecha en madera. Valorada actualmente en más de 200 millones de colones.",
+        "fileImg": "apple.jpg"
+    }
+]

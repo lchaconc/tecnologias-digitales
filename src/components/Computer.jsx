@@ -1,3 +1,6 @@
+import Carousel from "react-bootstrap/Carousel";
+import computer from "../data/computer.json";
+
 export default function Computer() {
   return (
     <>
@@ -8,16 +11,27 @@ export default function Computer() {
       </div>
 
       <div className="row">
-        <div className="col-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          alias, ab obcaecati, suscipit quo et earum ratione ducimus ullam
-          officiis maxime unde labore reiciendis tenetur soluta porro libero ex
-          repellendus!
+        <div className="col-12">
+          Un aparato o dispositivo que procesa información y datos.
         </div>
-        <div className="col-4">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga natus
-          nulla labore, sed ex doloribus nam ut a cum aperiam. Placeat
-          cupiditate esse inventore pariatur, quasi commodi rem vero hic.
+      </div>
+      <div className="row">
+        <div className="col-12">
+          <Carousel >
+            {computer.map((item) => (
+              <Carousel.Item key={item.id}>
+                <img
+                  className="img-fluid"
+                  src= {`./computer/${item.fileImg}`} 
+                  alt={item.title}
+                />
+                <Carousel.Caption className="dark-caption" >
+                  <h2> {item.title} </h2>
+                  <p> {item.caption} </p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            ))}
+          </Carousel>
         </div>
       </div>
     </>

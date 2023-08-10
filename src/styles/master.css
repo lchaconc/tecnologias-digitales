@@ -1,0 +1,10 @@
+.dark-caption  {
+    font-weight: bold;
+    background-color: rgba(125, 40, 20, 0.5);
+}
+
+.dark-caption>h2  {
+    font-weight: bold;
+    color: rgb(20, 14, 10)
+    
+}

@@ -7,7 +7,7 @@ export default function Navigation(props) {
     <Accordion defaultActiveKey="0">
       {views.map((view, i) => (
         <Accordion.Item eventKey={i} key={"cat" + i}>
-          <Accordion.Header> {view.cat} </Accordion.Header>
+          <Accordion.Header> ⭐ {view.cat} </Accordion.Header>
           <Accordion.Body>
             {view.sections.map((section) => (
 
