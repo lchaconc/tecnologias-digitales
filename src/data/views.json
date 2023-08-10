@@ -20,16 +20,16 @@
         "cat": "Partes de la computadora",
         "sections": [
             {
-                "id": "intro",
-                "title": "¿Qué es la computadora?"
+                "id": "partes-hardware",
+                "title": "Hardware: Partes de una PC"
             },
             {
-                "id": "datos",
-                "title": "Tipos de datos básicos"
+                "id": "partes-software",
+                "title": "Software: programas de una PC"
             },
             {
-                "id": "archivos",
-                "title": "Archivos más comunes"
+                "id": "buenas-practicas",
+                "title": "Buenas Prácticas"
             }
         ]
     }
