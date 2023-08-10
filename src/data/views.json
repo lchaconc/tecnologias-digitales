@@ -1,0 +1,36 @@
+[
+    {
+        "cat": "Introducción a la computación",
+        "sections": [
+            {
+                "id": "intro",
+                "title": "¿Qué es la computadora?"
+            },
+            {
+                "id": "datos",
+                "title": "Tipos de datos básicos"
+            },
+            {
+                "id": "archivos",
+                "title": "Archivos más comunes"
+            }
+        ]
+    },
+    {
+        "cat": "Partes de la computadora",
+        "sections": [
+            {
+                "id": "intro",
+                "title": "¿Qué es la computadora?"
+            },
+            {
+                "id": "datos",
+                "title": "Tipos de datos básicos"
+            },
+            {
+                "id": "archivos",
+                "title": "Archivos más comunes"
+            }
+        ]
+    }
+]
