@@ -1,0 +1,30 @@
+[
+    {
+        "id": "bit",
+        "title": "BIT",
+        "caption": [
+            "Es la unidad de información más pequeña en computación. Un bit tiene dos posibles valores: 0 o 1.",
+             "La palabra 'bit' es una contracción de 'binary digit', que significa 'dígito binario' en español."
+        ]
+    },
+    {
+        "id": "byte",
+        "title": "BYTE",
+        "caption": [
+            "Un byte está compuesto por 8 bits. Es la unidad estándar de almacenamiento de información en las computadoras.",
+            "Con un byte, puedes representar 256 valores diferentes (desde 00000000 hasta 11111111 en notación binaria, o 0 a 255 en notación decimal)."
+        ]
+    },
+    {
+        "id": "basic",
+        "title": "Tipos de datos básicos",
+        "caption": [
+            "Texto: Letras, palabras y frases que leemos y escribimos.",
+            "Números: Pueden ser enteros, decimales o fracciones.",
+            "Imágenes: Fotos, gráficos y cualquier representación visual.",
+            "Sonido: Música, grabaciones de voz, etc.",
+            "Videos: Clips de movimiento, películas, tutoriales, etc."
+        ]
+    }
+]
+
