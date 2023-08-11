@@ -15,7 +15,7 @@ export default function Navigation(props) {
                   id={section.id}
                   onClick={props.onClick}
                   role="button"                  
-                  className="badge text-bg-success mb-2"
+                  className="badge text-bg-dark mb-2 btn-nav"
                 >
                   <h6>🔅 {section.title}</h6>
                 </span>

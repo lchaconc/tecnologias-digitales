@@ -14,7 +14,7 @@ export default function App() {
   };
 
   const handleLoadView = (e) => {
-    const id = e.target.id;
+    const id = e.currentTarget.id;
     console.log(id);
     setCurrent(comps[id]);
   };

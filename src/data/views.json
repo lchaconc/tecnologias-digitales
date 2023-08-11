@@ -21,11 +21,11 @@
         "sections": [
             {
                 "id": "partes-hardware",
-                "title": "Hardware: Partes de una PC"
+                "title": "Hardware: Partes de la PC"
             },
             {
                 "id": "partes-software",
-                "title": "Software: programas de una PC"
+                "title": "Software: programas de la PC"
             },
             {
                 "id": "buenas-practicas",

@@ -8,3 +8,10 @@
     color: rgb(225, 244, 207)
     
 }
+
+.btn-nav {
+    width: 100%;
+    text-align: left;
+    border-radius: 6%;
+}
+
