@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navigation from "./components/Navigation";
 import Computer from "./components/Computer";
 import DataTypes from "./components/DataTypes";
+import CommonFiles from "./components/CommonFiles";
 import Bienvenidos from "./components/Bienvenidos";
 
 
@@ -10,11 +11,12 @@ export default function App() {
 
   const comps = {
     intro: <Computer />,
-    dataTypes: <DataTypes/>
+    dataTypes: <DataTypes/>,
+    commonFiles: <CommonFiles />
   };
 
   const handleLoadView = (id) => {    
-    //console.log("id", id);
+    console.log("id", id);
     setCurrent(comps[id]);
   };
 

@@ -19,7 +19,7 @@ export default function Computer() {
         <div className="col-12">
           <Carousel >
             {computer.map((item) => (
-              <Carousel.Item key={item.id}>
+              <Carousel.Item key={item.id} className="text-center" >
                 <img
                   className="img-fluid"
                   src= {`./computer/${item.fileImg}`} 

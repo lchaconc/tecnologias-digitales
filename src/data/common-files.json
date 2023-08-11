@@ -1,0 +1,9 @@
+[
+    {
+        "id": "docx",
+        "title": "DOC, DOCX",
+        "caption": "Archivos de documentos de texto que se abren con editores de texto como MS Word",
+        "fileImg": "word.png"
+
+    }
+]
