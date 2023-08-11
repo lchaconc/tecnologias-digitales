@@ -16,9 +16,11 @@ export default function DataTypes() {
       <div
         role="button"
         onClick={() => toggleCaption(item.id)}
-        className="col-12 alert alert-info"
+        className={`col-12 alert ${item.className}`}
       >
-        <h4> {item.title} </h4>
+        <strong>
+          <h4> {item.title} </h4>
+        </strong>
         {itemStates[item.id] &&
           item.caption.map((p, i) => <p key={"p" + i}> {p} </p>)}
       </div>

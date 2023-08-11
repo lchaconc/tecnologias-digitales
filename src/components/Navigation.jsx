@@ -1,6 +1,6 @@
 import Accordion from "react-bootstrap/Accordion";
 import views from "../data/views.json";
-
+import { Fragment } from "react";
 
 export default function Navigation(props) {
   return (
@@ -10,15 +10,17 @@ export default function Navigation(props) {
           <Accordion.Header> ⭐ {view.cat} </Accordion.Header>
           <Accordion.Body>
             {view.sections.map((section) => (
-
-              <p 
-              id={section.id}
-              onClick={props.onClick}
-              role="button" 
-              key={section.id} 
-              className="badge text-bg-info">
-                 🔅 {section.title}
-              </p >
+              <Fragment key={section.id}>
+                <span
+                  id={section.id}
+                  onClick={props.onClick}
+                  role="button"                  
+                  className="badge text-bg-success mb-2"
+                >
+                  <h6>🔅 {section.title}</h6>
+                </span>
+                <br />
+              </Fragment>
             ))}
           </Accordion.Body>
         </Accordion.Item>
