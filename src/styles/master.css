@@ -15,3 +15,13 @@
     border-radius: 6%;
 }
 
+.btn-nav:hover {   
+   color:bisque !important;
+   border: solid 1px crimson !important;
+}
+
+
+.btn-selected {
+    background-color: crimson !important;
+}
+

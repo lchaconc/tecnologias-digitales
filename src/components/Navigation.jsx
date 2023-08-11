@@ -1,8 +1,32 @@
+import { useRef } from "react";
+
 import Accordion from "react-bootstrap/Accordion";
 import views from "../data/views.json";
 import { Fragment } from "react";
 
 export default function Navigation(props) {
+  const refBtn = useRef([]);
+
+  const handleSelect = (e) => {
+    const idCurrent = e.currentTarget.id;
+    props.onClick(idCurrent);
+    //console.log(refBtn.current);
+    //const selectedIndex = refBtn.current.findIndex(ref => ref.id === e.target.id);
+    //console.log(selectedIndex);
+
+    refBtn.current.forEach((btn) => {
+      //console.log(btn.id);
+      //console.log("idCurrent", idCurrent);
+      //console.log("btn.id",btn.id);
+      if (btn) {
+        if (btn.id === idCurrent) {
+          //console.log("btn", btn);
+          btn.classList.add("btn-selected");
+        }
+      }
+    });
+  };
+
   return (
     <Accordion defaultActiveKey="0">
       {views.map((view, i) => (
@@ -13,9 +37,10 @@ export default function Navigation(props) {
               <Fragment key={section.id}>
                 <span
                   id={section.id}
-                  onClick={props.onClick}
-                  role="button"                  
+                  onClick={handleSelect}
+                  role="button"
                   className="badge text-bg-dark mb-2 btn-nav"
+                  ref={(ref) => refBtn.current.push(ref)}
                 >
                   <h6>🔅 {section.title}</h6>
                 </span>

@@ -13,9 +13,8 @@ export default function App() {
     dataTypes: <DataTypes/>
   };
 
-  const handleLoadView = (e) => {
-    const id = e.currentTarget.id;
-    console.log(id);
+  const handleLoadView = (id) => {    
+    //console.log("id", id);
     setCurrent(comps[id]);
   };
 
