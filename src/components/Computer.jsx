@@ -16,7 +16,7 @@ export default function Computer() {
         </div>
       </div>
       <div className="row">
-        <div className="col-12">
+        <div className="col-12 animate__animated animate__fadeInLeft">
           <Carousel >
             {computer.map((item) => (
               <Carousel.Item key={item.id} className="text-center" >

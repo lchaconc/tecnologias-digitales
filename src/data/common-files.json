@@ -4,6 +4,17 @@
         "title": "DOC, DOCX",
         "caption": "Archivos de documentos de texto que se abren con editores de texto como MS Word",
         "fileImg": "word.png"
-
+    },
+    {
+        "id": "xlsx",
+        "title": "XLS, XLSX",
+        "caption": "Arquivos que contienen hojas de c´laculo que nos permiten sacar cuentas y acomodar datos en filas y columnas",
+        "fileImg": "excel.png"
+    },
+    {
+        "id": "pptx",
+        "title": "PPT, PPTX",
+        "caption": "Archivos que conitnene presentaciones. estas presentaciones pueden contener extos, videos, imágenes y textos.",
+        "fileImg": "power-point.png"
     }
 ]

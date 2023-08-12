@@ -12,7 +12,7 @@ export default function Bienvenidos(params) {
         </div>
 
         <div className="row mt-2">
-            <div className="col-12 alert alert-success">
+            <div className="col-12 alert alert-success animate__animated animate__bounceIn ">
                 Seleccione una opción del menú izuqierdo
             </div>
         </div>
