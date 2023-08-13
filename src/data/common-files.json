@@ -2,7 +2,7 @@
     {
         "id": "docx",
         "title": "DOC, DOCX",
-        "caption": "Archivos de documentos de texto que se abren con editores de texto como MS Word",
+        "caption": "Archivos de documentos de texto que se abren con editores de texto como MS Word o cualquier otro editor de texto.",
         "fileImg": "word.png"
     },
     {
@@ -16,5 +16,23 @@
         "title": "PPT, PPTX",
         "caption": "Archivos que conitnene presentaciones. estas presentaciones pueden contener extos, videos, imágenes y textos.",
         "fileImg": "power-point.png"
+    },
+    {
+        "id": "video",
+        "title": "MP4, WMV, OGG, AVI",
+        "caption": "Videos en diferentes formatos que se pueden ver con diferentes tipos de aplicaciones. 'Media Player' o VLC. El formato más común es mp4.",
+        "fileImg": "video.png"
+    },
+    {
+        "id": "auido",
+        "title": "MP3, WMA, OGG",
+        "caption": "Audios en diferentes formatos que se pueden escuchar con diferentes tipos de aplicaciones. 'Media Player' o VLC. Hay mucos otros formatos más como webm y mov, pero el más común es mp3. Gracias a este formato podemos guardar en nuestro celular una cantidad de m+usica.",
+        "fileImg": "audio-2.png"
+    },
+    {
+        "id": "zip",
+        "title": "ZIP, RAR",
+        "caption": "Agrupación de archivos que se encuentrancomprimidos. Esto permite que ocupen menos espacio, además facilita el envio de agregarlos como adjunto en correos. Podemos encontrar muchas aplicaciones para abrir o crear este tipo de archivos, pero podemos utilizar el que trae 'Windows'. " ,
+        "fileImg": "zip-2.png"
     }
 ]
