@@ -1,41 +1,64 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Modal from "react-bootstrap/Modal";
 import hardwarePeripherals from "../data/hardware-peripherals.json";
 
-export default function Hardware() {
+const jsons = {
+  hardwarePeripherals,
+};
+
+export default function Hardware({ idView }) {
   const [show, setShow] = useState(false);
+  const [selected, setSelected] = useState(null);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    console.log("idView", idView);
+    setData(jsons[idView]);
+  }, [idView]);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+
+  const handleSelectItem = (e) => {
+    const id = e.target.id;
+    console.log(id);
+    setSelected(data.find((obj) => obj.id === id));
+    setShow(true);
+  };
 
   return (
     <>
       <div className="row animate__animated animate__bounceInDown">
-        {hardwarePeripherals.map((item) => (
-          <div className="col-4" key={item.id}>
-            <img
-              id={item.id}
-              onClick={handleShow}
-              className="img-fluid img-thumbnail rounded"
-              src={`./hardware/${item.fileImg}`}
-              alt={item.alt}
-            />
-          </div>
-        ))}
+        {data &&
+          data.map((item) => (
+            <div className="col-4" key={item.id}>
+              <img
+                id={item.id}
+                onClick={handleSelectItem}
+                className="img-fluid img-thumbnail rounded"
+                src={`./hardware/${item.fileImg}`}
+                alt={item.alt}
+              />
+            </div>
+          ))}
       </div>
 
-      <Modal 
-      size="lg"
-      show={show} 
-      onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-
-
-        </Modal.Footer>
+      <Modal size="lg" show={show} onHide={handleClose}>
+        {selected && (
+          <>
+            <Modal.Header closeButton>
+              <Modal.Title> {selected.title} </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <div className="row">
+                <div className="col-8">{selected.caption}</div>
+                <div className="col-4"> 
+                    <img className="img-fluid" src={`./hardware/${selected.fileImg}`} alt={selected.alt}  />
+                 </div>
+              </div>
+            </Modal.Body>
+            <Modal.Footer></Modal.Footer>
+          </>
+        )}
       </Modal>
     </>
   );

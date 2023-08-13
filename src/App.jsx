@@ -7,19 +7,23 @@ import Bienvenidos from "./components/Bienvenidos";
 import Hardware from "./components/Hardware";
 
 
+
 export default function App() {
-  const [current, setCurrent] = useState(null);
+  const [current, setCurrent] = useState(null); 
 
-  const comps = {
-    intro: <Computer />,
-    dataTypes: <DataTypes/>,
-    commonFiles: <CommonFiles />,
-    hardware: <Hardware />
-  };
 
-  const handleLoadView = (id, name ) => {    
-    console.log("id", id);
-    console.log("name", name);
+
+  const handleLoadView = (id, name ) => {   
+    //console.log("id", id);
+    //console.log("name", name);
+
+    const comps = {
+      intro: <Computer />,
+      dataTypes: <DataTypes/>,
+      commonFiles: <CommonFiles />,
+      hardware: <Hardware  idView={id} />
+    };   
+    
     setCurrent(comps[name]);
   };
 
