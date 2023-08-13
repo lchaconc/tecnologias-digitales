@@ -1,0 +1,16 @@
+[
+    {
+        "id": "mouse",
+        "alt": "mouse negro con cable desconectado",
+        "title": "Mouse (Ratón)",
+        "caption": "Se utiliza paa abrir y cerrar 'ventanas' (carpetas), seleccionar texto, abrir archivos, todo lo anterior de forma fácil y amigable. Se guian en pantalla con el puntero. Que se representa con una pequeña flecha, que se convierte en una mano para indicar que está sobre una zona que se puede dar 'clic'. Podemos encontrar mouse cableados e inalámbricos ",
+        "fileImg": "mouse.jpg"
+    },
+    {
+        "id": "keyboard",
+        "alt": "teclado negro sencillo con cable desconectado",
+        "title": "Teclado",
+        "caption": "Utilizado para escribir textos  y digitar instrucciones a la computadora. Tambien se utiliza para realizar funciones que hace el 'mouse' (abrir archivos, seleccionar textos, abrir aplicaciones, etc. ) pero de forma un poco más comleja. Hay alugnos que tiene teclas especializadas para abrir ciertas aplicaciones, y al igual que los mouse podemos enocntrar inalámmbricos (que no necesitan cable)." ,
+        "fileImg": "keyboard.jpg"
+    }
+]

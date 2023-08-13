@@ -4,14 +4,17 @@
         "sections": [
             {
                 "id": "intro",
+                "name": "intro",
                 "title": "¿Qué es la computadora?"
             },
             {
                 "id": "dataTypes",
+                "name": "dataTypes",
                 "title": "Tipos de datos básicos"
             },
             {
                 "id": "commonFiles",
+                "name": "commonFiles",
                 "title": "Archivos más comunes"
             }
         ]
@@ -20,15 +23,28 @@
         "cat": "Partes de la computadora",
         "sections": [
             {
-                "id": "partes-hardware",
-                "title": "Hardware: Partes de la PC"
+                "id": "hardwarePeripherals",
+                "name": "hardware",
+                "title": "Hardware: Periféricos"
             },
             {
-                "id": "partes-software",
-                "title": "Software: programas de la PC"
+                "id": "hardwareInside",
+                "name": "hardware",
+                "title": "Hardware: Componentes internos"
+            },
+            {
+                "id": "hardwarePorts",
+                "name": "hardware",
+                "title": "Hardware: Puertos"
+            },
+            {
+                "id": "software",
+                "name": "software",
+                "title": "Software: Programas de la PC"
             },
             {
                 "id": "buenas-practicas",
+                "name": "visorPdf",
                 "title": "Buenas Prácticas"
             }
         ]

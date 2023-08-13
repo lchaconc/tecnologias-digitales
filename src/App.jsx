@@ -4,6 +4,7 @@ import Computer from "./components/Computer";
 import DataTypes from "./components/DataTypes";
 import CommonFiles from "./components/CommonFiles";
 import Bienvenidos from "./components/Bienvenidos";
+import Hardware from "./components/Hardware";
 
 
 export default function App() {
@@ -12,12 +13,14 @@ export default function App() {
   const comps = {
     intro: <Computer />,
     dataTypes: <DataTypes/>,
-    commonFiles: <CommonFiles />
+    commonFiles: <CommonFiles />,
+    hardware: <Hardware />
   };
 
-  const handleLoadView = (id) => {    
+  const handleLoadView = (id, name ) => {    
     console.log("id", id);
-    setCurrent(comps[id]);
+    console.log("name", name);
+    setCurrent(comps[name]);
   };
 
   const handleHome = () => {

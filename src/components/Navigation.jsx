@@ -9,7 +9,8 @@ export default function Navigation(props) {
 
   const handleSelect = (e) => {
     const idCurrent = e.currentTarget.id;
-    props.onClick(idCurrent);
+    const name = e.currentTarget.attributes.name.value;    
+    props.onClick(idCurrent, name );
     //console.log(refBtn.current);
     //const selectedIndex = refBtn.current.findIndex(ref => ref.id === e.target.id);
     //console.log(selectedIndex);
@@ -37,6 +38,7 @@ export default function Navigation(props) {
               <Fragment key={section.id}>
                 <span
                   id={section.id}
+                  name={section.name}
                   onClick={handleSelect}
                   role="button"
                   className="badge text-bg-dark mb-2 btn-nav"
