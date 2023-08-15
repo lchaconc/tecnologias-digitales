@@ -5,6 +5,7 @@ import DataTypes from "./components/DataTypes";
 import CommonFiles from "./components/CommonFiles";
 import Bienvenidos from "./components/Bienvenidos";
 import Hardware from "./components/Hardware";
+import Test from "./components/Test";
 
 
 
@@ -21,7 +22,8 @@ export default function App() {
       intro: <Computer />,
       dataTypes: <DataTypes/>,
       commonFiles: <CommonFiles />,
-      hardware: <Hardware  idView={id} />
+      hardware: <Hardware  idView={id} />,
+      test: <Test idView={id} />
     };   
     
     setCurrent(comps[name]);

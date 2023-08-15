@@ -1,0 +1,44 @@
+[
+    {
+        "id": "usb2",
+        "title": "USB 2.0",
+        "name": "USB 2.0",
+        "caption": "Conector universal utilizado para conectar una variedad de dispositivos, desde discos duros externos hasta teclados y ratones. Es una versión más antigua y no tan rápida como las versiones posteriores.",
+        "fileImg": "port-usb2.jpg"
+    },
+    {
+        "id": "usb3",
+        "title": "USB 3.0",
+        "name": "USB 3.0",
+        "caption": "Similar al USB 2.0, pero mucho más rápido. A menudo tiene un color azul en su interior para diferenciarlo del USB 2.0.",
+        "fileImg": "port-usb3.webp"
+    },
+    {
+        "id": "usb-c",
+        "title": "USB Tipo C",
+        "name": "USB Type-C",
+        "caption": "Un puerto más nuevo y reversible. Es más pequeño que los USB tradicionales y se utiliza en muchos dispositivos modernos por su rapidez y versatilidad.",
+        "fileImg": "port-usbc.jpg"
+    },
+    {
+        "id": "hdmi",
+        "title": "HDMI",
+        "name": "HDMI (High Definition Multimedia Interface)",
+        "caption": "Puerto utilizado para conectar la computadora a monitores, televisores o proyectores. Transmite video y audio de alta definición.",
+        "fileImg": "port-hdmi.webp"
+    },
+    {
+        "id": "ethernet",
+        "title": "Ethernet",
+        "name": "Ethernet Port",
+        "caption": "Puerto rectangular más grande utilizado para conectar la computadora a una red mediante un cable. Es más estable que la conexión inalámbrica y se usa comúnmente para conexiones a internet.",
+        "fileImg": "port-ethernet.jpg"
+    },
+    {
+        "id": "audio-jack",
+        "title": "Conector de Audio",
+        "name": "Audio Jack",
+        "caption": "Pequeño orificio circular donde se conectan auriculares o parlantes. Usualmente está marcado con un símbolo de auriculares.",
+        "fileImg": "port-audio.webp"
+    }
+]

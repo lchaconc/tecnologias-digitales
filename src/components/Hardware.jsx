@@ -1,9 +1,13 @@
 import { useState, useEffect } from "react";
 import Modal from "react-bootstrap/Modal";
 import hardwarePeripherals from "../data/hardware-peripherals.json";
+import hardwareInnternal from "../data/hardware-internal.json";
+import hardwarePorts from "../data/hardware-ports.json"
 
 const jsons = {
   hardwarePeripherals,
+  hardwareInnternal,
+  hardwarePorts
 };
 
 export default function Hardware({ idView }) {
@@ -46,16 +50,24 @@ export default function Hardware({ idView }) {
         {selected && (
           <>
             <Modal.Header closeButton>
-              <Modal.Title> {selected.title} </Modal.Title>
+              <Modal.Title>                
+                <h2>{selected.title}</h2>
+                {selected.name && <span className="t-0">{selected.name}</span>}
+              </Modal.Title>
             </Modal.Header>
             <Modal.Body>
               <div className="row">
                 <div className="col-8">
                   <p>{selected.caption}</p>
-                  <p>                    
-                    <span                     
-                    className="t-1" > Cuidados para mantenerlo en buen estado: </span> {" "} {selected.care}                    
-                  </p>
+                  {selected.care && (
+                    <p>
+                      <span className="t-1">
+                        {" "}
+                        Cuidados para mantenerlo en buen estado:{" "}
+                      </span>{" "}
+                      {selected.care}
+                    </p>
+                  )}
                 </div>
                 <div className="col-4">
                   <img

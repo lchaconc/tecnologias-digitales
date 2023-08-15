@@ -1,0 +1,112 @@
+[
+    {
+        "id": "1234",
+        "pregunta": "¿Cuál de los siguientes es el \"cerebro\" de la computadora?",
+        "opciones": [
+            "Tarjeta Gráfica",
+            "Disco Duro",
+            "Memoria RAM",
+            "Procesador"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": "2345",
+        "pregunta": "Si quieres conectar un teclado o ratón a tu computadora, ¿qué puerto podrías usar comúnmente?",
+        "opciones": [
+            "HDMI",
+            "USB 2.0",
+            "Ethernet",
+            "Audio Jack"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": "3456",
+        "pregunta": "¿Cuál componente se describe como la \"memoria de corto plazo\" de la computadora?",
+        "opciones": [
+            "Disco Duro",
+            "Tarjeta Madre",
+            "Tarjeta Gráfica",
+            "Memoria RAM"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": "4567",
+        "pregunta": "Si quisieras conectar tu computadora a un televisor para mostrar un video, ¿qué puerto usarías?",
+        "opciones": [
+            "Ethernet",
+            "Audio Jack",
+            "HDMI",
+            "USB Tipo C"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": "5678",
+        "pregunta": "¿Qué periférico usarías para hacer una videoconferencia o una llamada con video?",
+        "opciones": [
+            "Impresora",
+            "Webcam",
+            "Teclado",
+            "Ratón"
+        ],
+        "correcta": 1
+    },
+    {
+        "id": "6789",
+        "pregunta": "¿Cuál de los siguientes es un almacenamiento más rápido y moderno que el disco duro tradicional?",
+        "opciones": [
+            "Memoria RAM",
+            "Procesador",
+            "SSD",
+            "Tarjeta Gráfica"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": "7890",
+        "pregunta": "Si quisieras escuchar música con auriculares en una computadora, ¿en qué puerto los conectarías?",
+        "opciones": [
+            "Ethernet",
+            "USB 3.0",
+            "Audio Jack",
+            "HDMI"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": "8901",
+        "pregunta": "¿Qué componente se considera el \"esqueleto\" o \"columna vertebral\" de la computadora?",
+        "opciones": [
+            "Disco Duro",
+            "Tarjeta Gráfica",
+            "Procesador",
+            "Tarjeta Madre"
+        ],
+        "correcta": 3
+    },
+    {
+        "id": "9012",
+        "pregunta": "¿Qué periférico permite imprimir documentos en papel?",
+        "opciones": [
+            "Teclado",
+            "Pantalla",
+            "Impresora",
+            "Ratón"
+        ],
+        "correcta": 2
+    },
+    {
+        "id": "0123",
+        "pregunta": "Si quisieras una conexión de internet estable mediante cable, ¿qué puerto usarías?",
+        "opciones": [
+            "USB Tipo C",
+            "HDMI",
+            "Ethernet",
+            "USB 2.0"
+        ],
+        "correcta": 2
+    }
+]

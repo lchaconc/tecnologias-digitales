@@ -28,7 +28,7 @@
                 "title": "Hardware: Periféricos"
             },
             {
-                "id": "hardwareInside",
+                "id": "hardwareInnternal",
                 "name": "hardware",
                 "title": "Hardware: Componentes internos"
             },
@@ -38,15 +38,33 @@
                 "title": "Hardware: Puertos"
             },
             {
+                "id": "test-hardware",
+                "name": "test",
+                "title": "Test Hardware"
+            }
+       
+        ]
+    },
+    {
+        "cat": "Software: Programas",
+        "sections": [
+            {
                 "id": "software",
                 "name": "software",
                 "title": "Software: Programas de la PC"
-            },
+            }
+        ]
+    },
+    {
+        "cat": "Buenas prácticas",
+        "sections" : [
             {
                 "id": "buenas-practicas",
                 "name": "visorPdf",
-                "title": "Buenas Prácticas"
+                "title": "Cuidados de la PC"
             }
         ]
     }
+  
+
 ]

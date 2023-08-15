@@ -1,0 +1,51 @@
+[
+    {
+        "id": "cpu",
+        "title": "Procesador",
+        "name": "CPU (Central Processing Unit)",
+        "caption": "Unidad central de procesamiento. Es el 'cerebro' de la computadora. Toma y procesa las instrucciones para que todo funcione. Cuanto más rápido sea el procesador, más rápido trabajará la computadora.",
+        "fileImg": "cpu.jpeg"
+    },
+    {
+        "id": "motherboard",
+        "title": "Tarjeta Madre",
+        "name": "Motherboard",
+        "caption": "Es como el 'esqueleto' o 'columna vertebral' de la computadora. Todos los demás componentes se conectan a ella.",
+        "fileImg": "motherboard.webp"
+    },
+    {
+        "id": "ram",
+        "title": "Memoria RAM",
+        "name": "RAM (Random Access Memory)",
+        "caption": "Es la 'memoria de corto plazo' de la computadora. Aquí se almacena temporalmente la información que la computadora está usando mientras está encendida.",
+        "fileImg": "ram.jpg"
+    },
+    {
+        "id": "harddrive",
+        "title": "Disco Duro",
+        "name": "Hard Drive",
+        "caption": "Es la 'memoria de largo plazo' de la computadora. Aquí se guardan todos tus documentos, fotos, música y programas, incluso cuando la computadora está apagada.",
+        "fileImg": "hard-drive.jpg"
+    },
+    {
+        "id": "powersupply",
+        "title": "Fuente de Poder",
+        "name": "Power Supply",
+        "caption": "Es el 'corazón' que bombea energía a todos los componentes de la computadora. Convierte la electricidad de tu hogar en una forma que la computadora pueda usar.",
+        "fileImg": "power-suply.jpg"
+    },
+    {
+        "id": "graphicscard",
+        "title": "Tarjeta Gráfica",
+        "name": "Graphics Card",
+        "caption": "Esta pieza ayuda a la computadora a mostrar imágenes y videos en el monitor. Es como los 'ojos' de la PC, mostrando todo lo que la computadora piensa y procesa.",
+        "fileImg": "graphic-card.jpg"
+    },
+    {
+        "id": "cd-dvd-ssd",
+        "title": "Unidad de CD/DVD o Unidad de Estado Sólido",
+        "name": "CD/DVD Drive or SSD (Solid State Drive)",
+        "caption": "La unidad de CD/DVD es como un 'lector de discos', donde puedes poner CDs o DVDs para ver o escuchar contenido. Una SSD es una versión más rápida y moderna del disco duro.",
+        "fileImg": "cd-rom.jpg"
+    }
+]
