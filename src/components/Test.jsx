@@ -1,30 +1,37 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import testHardware from "../data/test-hardware.json";
 
-const record = [];
+
 
 export default function Test() {
+    const [answers, setAnswers] = useState({});
+    const [hasVerified, setHasVerified] = useState(false);
+    const [grade, setGrade] = useState(0);
+
+
   const handleSelect = (e) => {
     const opt = e.target.dataset.opt;
     const itemId = e.target.name;
     //console.log(itemId, opt);
     const selected = testHardware.find((obj) => obj.id === itemId);
     //console.log(selected);
+    let isCorrect = selected.correct === parseInt(opt);
 
-    const tmp = {
-      itemId,
-      isCorrect: false,
-    };
-    if (selected.correct === parseInt(opt)) {
-      console.log("correcta");
-      tmp.isCorrect = true;
-    }
-    record.push(tmp);
+    setAnswers((prev) => ({
+        ...prev,
+        [itemId]: isCorrect,
+    }));
+
+  
   };
 
 
   const handleValidate =()=> {
-    console.log(record);
+    setHasVerified(true);
+    console.log(answers);
+    const points = Object.values(answers).reduce((count, isCorrect) => isCorrect ? count + 1 : count, 0);   
+    console.log(points);
+    setGrade ( points * 10 )
   }
 
   return (
@@ -51,11 +58,24 @@ export default function Test() {
         </div>
       </div>
 
+      <div className="row mt-3 alert alert-secondary">
+        {
+            grade > 0 && 
+            <>
+            <strong> Nota obtenida: {grade} </strong>
+            {
+                grade > 79 ? <span className="text-success"> ¡Felicidades! Tienes una muy buena nota.  </span>  : 
+                <span className="text-warning"> ¡Puedes intentarlo de nuevo y mejorar tu nota! </span>
+             }
+            </>
+        }
+      </div>
+
       <div className="row mt-3">
         <div className="col-12">
           {testHardware.map((item, i) => (
-            <Fragment key={item.id}>
-              <p className="mt-4">
+            <Fragment key={item.id}>              
+              <p className={`mt-4 ${hasVerified ? (answers[item.id] === true ? 'text-success' : 'text-danger') : ''}`}>
                 <strong> {i + 1} - </strong>
                 {item.pregunta}
               </p>
