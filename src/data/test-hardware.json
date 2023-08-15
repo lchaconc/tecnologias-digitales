@@ -8,7 +8,7 @@
             "Memoria RAM",
             "Procesador"
         ],
-        "correcta": 3
+        "correct": 3
     },
     {
         "id": "2345",
@@ -19,7 +19,7 @@
             "Ethernet",
             "Audio Jack"
         ],
-        "correcta": 1
+        "correct": 1
     },
     {
         "id": "3456",
@@ -30,7 +30,7 @@
             "Tarjeta Gráfica",
             "Memoria RAM"
         ],
-        "correcta": 3
+        "correct": 3
     },
     {
         "id": "4567",
@@ -41,7 +41,7 @@
             "HDMI",
             "USB Tipo C"
         ],
-        "correcta": 2
+        "correct": 2
     },
     {
         "id": "5678",
@@ -52,7 +52,7 @@
             "Teclado",
             "Ratón"
         ],
-        "correcta": 1
+        "correct": 1
     },
     {
         "id": "6789",
@@ -63,7 +63,7 @@
             "SSD",
             "Tarjeta Gráfica"
         ],
-        "correcta": 2
+        "correct": 2
     },
     {
         "id": "7890",
@@ -74,7 +74,7 @@
             "Audio Jack",
             "HDMI"
         ],
-        "correcta": 2
+        "correct": 2
     },
     {
         "id": "8901",
@@ -85,7 +85,7 @@
             "Procesador",
             "Tarjeta Madre"
         ],
-        "correcta": 3
+        "correct": 3
     },
     {
         "id": "9012",
@@ -96,7 +96,7 @@
             "Impresora",
             "Ratón"
         ],
-        "correcta": 2
+        "correct": 2
     },
     {
         "id": "0123",
@@ -107,6 +107,6 @@
             "Ethernet",
             "USB 2.0"
         ],
-        "correcta": 2
+        "correct": 2
     }
 ]

@@ -1,7 +1,32 @@
 import { Fragment } from "react";
 import testHardware from "../data/test-hardware.json";
 
+const record = [];
+
 export default function Test() {
+  const handleSelect = (e) => {
+    const opt = e.target.dataset.opt;
+    const itemId = e.target.name;
+    //console.log(itemId, opt);
+    const selected = testHardware.find((obj) => obj.id === itemId);
+    //console.log(selected);
+
+    const tmp = {
+      itemId,
+      isCorrect: false,
+    };
+    if (selected.correct === parseInt(opt)) {
+      console.log("correcta");
+      tmp.isCorrect = true;
+    }
+    record.push(tmp);
+  };
+
+
+  const handleValidate =()=> {
+    console.log(record);
+  }
+
   return (
     <>
       <div className="row mt-2">
@@ -12,25 +37,53 @@ export default function Test() {
             las cuales hay tres opciones incorrectas y una correcta. Debe
             selecionar la opción que considere correcta.
             <br />
-            <strong> Este test NO tiene valor para la nota. El fin es para determinar los aprendizajes. </strong>
+            Una vez seleccionadas las opciones, debe orpimeir el botón
+            "Verificar" para que la aplicación le indique cuáles debe corregir y
+            le dará un puntaje.
+            <br />
+            Puede repetir la prueba todas las veces que desee.
+            <br />
+            <strong>
+              Este test NO tiene valor para la nota. El fin es para determinar
+              los aprendizajes.{" "}
+            </strong>
           </p>
         </div>
       </div>
 
       <div className="row mt-3">
         <div className="col-12">
-          {testHardware.map((item, i ) => (
+          {testHardware.map((item, i) => (
             <Fragment key={item.id}>
-              <p> 
+              <p className="mt-4">
                 <strong> {i + 1} - </strong>
-                {item.pregunta}</p>                
-                    <ul>
-                        {item.opciones.map( (opcion, index ) => (
-                            <li key={index} > {opcion} </li>
-                        ) ) }
-                    </ul>                
+                {item.pregunta}
+              </p>
+
+              {item.opciones.map((opt, index) => (
+                <div className="input-group" key={index} data-opt={index}>
+                  <div className="input-group-text">
+                    <input
+                      className="form-check-input mt-0"
+                      name={item.id}
+                      data-opt={index}
+                      onClick={handleSelect}
+                      type="radio"
+                    />
+                  </div>
+                  <span className="form-control"> {opt} </span>
+                </div>
+              ))}
             </Fragment>
           ))}
+        </div>
+      </div>
+
+      <div className="row mt-4">
+        <div className="col-12 text-end">
+          <button className="btn btn-success"
+          onClick={handleValidate}
+          > Verificar </button>
         </div>
       </div>
     </>
