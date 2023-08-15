@@ -4,6 +4,7 @@
         "alt": "mouse negro con cable desconectado",
         "title": "Mouse (Ratón)",
         "caption": "Se utiliza paa abrir y cerrar 'ventanas' (carpetas), seleccionar texto, abrir archivos, todo lo anterior de forma fácil y amigable. Se guian en pantalla con el puntero. Que se representa con una pequeña flecha, que se convierte en una mano para indicar que está sobre una zona que se puede dar 'clic'. Podemos encontrar mouse cableados e inalámbricos ",
+        "care": "Limpiar la parte inferior regularmente para evitar acumulación de polvo. Si es inalámbrico, recuerda cambiar o recargar las pilas cuando sea necesario.",
         "fileImg": "mouse.jpg"
     },
     {
@@ -11,6 +12,31 @@
         "alt": "teclado negro sencillo con cable desconectado",
         "title": "Teclado",
         "caption": "Utilizado para escribir textos  y digitar instrucciones a la computadora. Tambien se utiliza para realizar funciones que hace el 'mouse' (abrir archivos, seleccionar textos, abrir aplicaciones, etc. ) pero de forma un poco más comleja. Hay alugnos que tiene teclas especializadas para abrir ciertas aplicaciones, y al igual que los mouse podemos enocntrar inalámmbricos (que no necesitan cable)." ,
+        "care": "Evitar derramar líquidos sobre él. Sacudirlo ocasionalmente boca abajo para eliminar el polvo y las migas.",
         "fileImg": "keyboard.jpg"
+    },
+    {
+        "id": "monitor",
+        "alt": "pantalla negra para computadora.",
+        "title": "Monitor",
+        "caption": "Proyecta las imágenes. Es donde vemos todo lo que la computadora está mostrando. " ,
+        "care": "No tocar la pantalla con los dedos. Limpiar con un paño suave y, si es necesario, con un limpiador especial para pantallas.",
+        "fileImg": "monitor.svg"
+    },
+    {
+        "id": "printer",
+        "alt": "impresora multifuncional.",
+        "title": "Impresora",
+        "caption": "Toma lo que vemos en pantalla y lo imprime (pasa) en papel. Puede imprir fotos, textos y mucho más. Hoy en día es muy comun ver 'Multifuncional', las cuales son impresoras que tienen escaner, que sirven para sacarle fotos a una hoja o documento, para luego pasarla a la computadora o imprimirla. " ,
+        "care": "No forzar el papel al cargarlo. Realizar impresiones de prueba de vez en cuando para mantener los cabezales limpios. Cambiar o recargar los cartuchos de tinta según sea necesario.",
+        "fileImg": "printer.jpg"
+    },
+    {
+        "id": "webcam",
+        "alt": "Webcam con el cable usb",
+        "title": "Webcam (Cámara web)",
+        "caption": "Cámara pequeña que se conecta a la computadora. Sirve para hacer videollamadas o grabar videos. Muy útil para las reuniones en línea. " ,
+        "care": "Limpiar el lente con un paño suave. Cubrirla cuando no esté en uso para protegerla del polvo y garantizar la privacidad.",
+        "fileImg": "webcam.jpg"
     }
 ]

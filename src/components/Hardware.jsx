@@ -50,10 +50,20 @@ export default function Hardware({ idView }) {
             </Modal.Header>
             <Modal.Body>
               <div className="row">
-                <div className="col-8">{selected.caption}</div>
-                <div className="col-4"> 
-                    <img className="img-fluid" src={`./hardware/${selected.fileImg}`} alt={selected.alt}  />
-                 </div>
+                <div className="col-8">
+                  <p>{selected.caption}</p>
+                  <p>                    
+                    <span                     
+                    className="t-1" > Cuidados para mantenerlo en buen estado: </span> {" "} {selected.care}                    
+                  </p>
+                </div>
+                <div className="col-4">
+                  <img
+                    className="img-fluid"
+                    src={`./hardware/${selected.fileImg}`}
+                    alt={selected.alt}
+                  />
+                </div>
               </div>
             </Modal.Body>
             <Modal.Footer></Modal.Footer>
