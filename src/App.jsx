@@ -6,6 +6,7 @@ import CommonFiles from "./components/CommonFiles";
 import Bienvenidos from "./components/Bienvenidos";
 import Hardware from "./components/Hardware";
 import Test from "./components/Test";
+import Software from "./components/Software";
 
 
 
@@ -23,7 +24,8 @@ export default function App() {
       dataTypes: <DataTypes/>,
       commonFiles: <CommonFiles />,
       hardware: <Hardware  idView={id} />,
-      test: <Test idView={id} />
+      test: <Test idView={id} />,
+      software: <Software />
     };   
     
     setCurrent(comps[name]);
