@@ -13,7 +13,7 @@
         "caption": "Programas diseñados para ayudar en tareas de oficina, como escribir documentos, crear presentaciones y gestionar hojas de cálculo.",
         "examples": ["Microsoft Office", "LibreOffice", "Google Docs", "Apple iWork"],
         "usageTips": "Guarda tu trabajo con regularidad para evitar pérdidas inesperadas y utiliza las plantillas disponibles para un diseño profesional.",
-        "fileImg": "ofimatica.jpeg"
+        "fileImg": "ofimatica.webp"
     },
     {
         "id": "003",
@@ -21,7 +21,7 @@
         "caption": "Software diseñado para detectar, prevenir y eliminar malware y otras amenazas para tu computadora.",
         "examples": ["Norton", "McAfee", "Avast", "Kaspersky"],
         "usageTips": "Realiza análisis completos regularmente y no descargues archivos de sitios web no confiables.",
-        "fileImg": "antivirus.jpeg"
+        "fileImg": "antivirus.webp"
     },
     {
         "id": "004",
@@ -29,7 +29,7 @@
         "caption": "Software utilizado para crear, editar o reproducir contenido multimedia, como videos, música e imágenes.",
         "examples": ["VLC", "Adobe Photoshop", "Audacity", "Adobe Premiere"],
         "usageTips": "Asegúrate de tener suficiente espacio de almacenamiento antes de editar o crear contenido multimedia grande.",
-        "fileImg": "multimedia.jpeg"
+        "fileImg": "media.jpg"
     },
     {
         "id": "005",
@@ -37,7 +37,7 @@
         "caption": "Programas que te permiten navegar por internet y acceder a sitios web.",
         "examples": ["Google Chrome", "Mozilla Firefox", "Safari", "Microsoft Edge"],
         "usageTips": "Borra cookies y caché regularmente para optimizar la velocidad de navegación y proteger tu privacidad.",
-        "fileImg": "navegador.jpeg"
+        "fileImg": "browsers.png"
     },
     {
         "id": "006",
@@ -45,6 +45,6 @@
         "caption": "Software dedicado a la interacción social, compartir contenidos y mantenerse conectado con amigos y familiares.",
         "examples": ["Facebook", "Instagram", "Twitter", "WhatsApp", "TikTok"],
         "usageTips": "Ajusta la configuración de privacidad para controlar quién ve tu contenido y evita compartir información personal sensible.",
-        "fileImg": "social_apps.jpeg"
+        "fileImg": "social.jpg"
     }
 ]
