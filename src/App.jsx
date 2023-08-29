@@ -7,6 +7,7 @@ import Bienvenidos from "./components/Bienvenidos";
 import Hardware from "./components/Hardware";
 import Test from "./components/Test";
 import Software from "./components/Software";
+import ViewPdf from "./components/ViewPdf";
 
 
 
@@ -25,7 +26,8 @@ export default function App() {
       commonFiles: <CommonFiles />,
       hardware: <Hardware  idView={id} />,
       test: <Test idView={id} />,
-      software: <Software />
+      software: <Software />,
+      visorPdf: <ViewPdf idView={id} />
     };   
     
     setCurrent(comps[name]);
