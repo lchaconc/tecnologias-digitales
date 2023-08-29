@@ -5,7 +5,7 @@
         "caption": "El software principal de una computadora que gestiona el hardware, los recursos y proporciona servicios a otros softwares.",
         "examples": ["Windows", "macOS", "Linux", "Android", "iOS"],
         "usageTips": "Mantén tu sistema operativo actualizado para disfrutar de las últimas características y correcciones de seguridad.",
-        "fileImg": "sistema_operativo.jpeg"
+        "fileImg": "sistema_operativo.webp"
     },
     {
         "id": "002",

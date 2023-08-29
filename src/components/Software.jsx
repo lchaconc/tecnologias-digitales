@@ -42,7 +42,13 @@ export default function Software() {
                       ))}
                     </ul>
                     <strong>Consejos:</strong> {item.usageTips}
+                    <hr />
+                    <img 
+                    className="img-fluid"
+                    src={`./software/${item.fileImg}`} alt="miniatura"/>
+
                   </div>
+                  
                 )}
               </div>
             
