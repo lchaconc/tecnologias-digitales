@@ -8,7 +8,7 @@
     {
         "id": "xlsx",
         "title": "XLS, XLSX",
-        "caption": "Arquivos que contienen hojas de c´laculo que nos permiten sacar cuentas y acomodar datos en filas y columnas",
+        "caption": "Arquivos que contienen hojas de cálculo que nos permiten sacar cuentas y acomodar datos en filas y columnas",
         "fileImg": "excel.png"
     },
     {
